@@ -1,0 +1,88 @@
+a {
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+.icon
+{
+   width:20px;
+   height:20px;
+}
+
+.halloween
+{
+        background-repeat: no-repeat;
+        background-image: url("imgs/blooddrip.png");
+        background-position: center;
+        background-size: cover;    
+}
+.red
+{
+        color:red;
+}
+.newdesign
+{
+         background-color: blue;
+         color:white;
+}
+.fix
+{
+    position:fixed;
+    bottom:10px;
+    left:80%;
+}
+.tree
+{
+	height:497.78;
+	width:350;
+}
+
+.inactiveLink 
+{
+   pointer-events: none;
+   cursor: default;
+}
+.music
+{
+        height:80;
+        width:220;
+}
+.days
+{
+height:500;
+width:500;	
+}
+
+body
+{
+	font-size:10vm;
+}
+.quotes
+{
+	font-family: 'Noto Sans HK', sans-serif;
+	font-size:30px;
+	padding-left:50px;
+	padding:50px;
+}
+.padding
+{
+padding-top:10px;
+padding-left:10px;
+
+}
+
+.travel
+{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.homeb
+{
+width:33px;
+height:33px;
+}
