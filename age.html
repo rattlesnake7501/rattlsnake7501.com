@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AGE</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+        .button-container a {
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+        .button-container a:hover {
+            background-color: #0056b3;
+        }
+        .centrato {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .age {
+            font-size: 1.5em;
+            text-transform: lowercase;
+            display: block;
+            margin-top: 20px;
+        }
+        .numero-intero {
+            font-size: 3em;
+            font-weight: bold;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="../">Home</a>
+        <a href="new_age">New Age</a>
+    </div>
+    <div class="centrato">
+        <h1 id="age-calculator-label">AGE CALCULATOR</h1>
+        <p id="age"></p>
+    </div>
+    
+    <script>
+        function calcolaEta() {
+            var dataNascita = new Date('2001-05-07');
+            
+            var dataCorrente = new Date();
+            var differenza = dataCorrente - dataNascita;
+            var millisecondiInUnAnno = 1000 * 60 * 60 * 24 * 365.25;
+            var etaInAnni = differenza / millisecondiInUnAnno;
+            var etaFormattata = etaInAnni.toFixed(9);
+            var partiEta = etaFormattata.split('.');
+            var testoEta = '<h1><span class="numero-intero">' + partiEta[0] + '</span>.' + partiEta[1] + ' year</h1>';
+
+            document.getElementById("age").innerHTML = testoEta;
+        }
+
+        // Initial call to display the age based on fixed birthdate
+        calcolaEta();
+
+        // Update the age every second to ensure it stays accurate
+        setInterval(calcolaEta, 1000);
+
+        // Add event listener for the "New Age" button
+        document.getElementById("new-age-button").addEventListener("click", function(event) {
+            event.preventDefault();
+            calcolaEta();
+        });
+    </script>
+</body>
+</html>

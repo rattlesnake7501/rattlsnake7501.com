@@ -14,12 +14,13 @@ a:link {
    height:20px;
 }
 
-.halloween
+halloween
 {
         background-repeat: no-repeat;
         background-image: url("imgs/blooddrip.png");
         background-position: center;
-        background-size: cover;    
+        background-size: cover;
+        font-size:10vm;
 }
 .red
 {
@@ -58,7 +59,7 @@ height:500;
 width:500;	
 }
 
-body
+.tmpnotbody
 {
 	font-size:10vm;
 }
@@ -85,4 +86,9 @@ padding-left:10px;
 {
 width:33px;
 height:33px;
+}
+
+.rattlefont1
+{
+        @font-face { font-family: Rattlefont1; src: url('../fontfiles/rattleffont1/Rattlefont1-Regular'); } 
 }
