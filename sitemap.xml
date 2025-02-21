@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-<url>
-  <loc>https://rattlesnake7501.com/</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/page2</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/social</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/soundboard</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/domains</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/pastabake</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://rattlesnake7501.com/gemmaboard</loc>
-  <lastmod>2020-07-15T12:29:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <url>
+       <loc>https://rattlesnake7501.com/</loc>
+       <lastmod>2024-06-13T23:02:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/page2</loc>
+       <lastmod>2021-05-24T10:44:36+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/social</loc>
+       <lastmod>2024-06-13T22:36:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/soundboard</loc>
+       <lastmod>2020-08-11T09:11:48+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/domains</loc>
+       <lastmod>2024-06-13T22:02:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/marquee</loc>
+       <lastmod>2021-08-13T08:48:47+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://rattlesnake7501.com/gemmaboard</loc>
+       <lastmod>2024-06-13T22:59:35+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
 </urlset>
