@@ -16,11 +16,11 @@ a:link {
 
 body
 {
-        background-repeat: no-repeat;
-        background-image: url("imgs/blooddrip.png");
-        background-position: center;
-        background-size: cover;
-        font-size:10vm;
+    background-repeat: no-repeat;
+    background-image: url("imgs/blooddrip.png");
+    background-position: top;
+    background-size: 190% auto;
+    min-height: 100vh;
 }
 .red
 {
